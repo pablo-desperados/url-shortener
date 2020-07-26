@@ -1,0 +1,16 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pablo-desperados/url-shortener.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js "
+   },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  }
+}
